@@ -21,10 +21,10 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.45.15:9000/</sonar.host.url>
+		<sonar.host.url>http://13.235.247.208:9000/</sonar.host.url>
 		<!--<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> -->
-		<sonar.login>186e2fe19866a96f3a166033fcf479bf1cb21e4c</sonar.login>
+		<sonar.login>63bd713c15ad2ba53620e4072ba5e54bdcc63918</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Rajat Releases Nexus Repository</name>
-	      <url>http://65.0.80.118:8081/repository/wallmart-release/</url>
+	      <url>http://3.110.172.168:8081/repository/maven-web-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Rajat Snapshot Nexus Repository </name>
-	      <url>http://65.0.80.118:8081/repository/wallmart-snapshot/</url>
+	      <url>http://3.110.172.168:8081/repository/maven-web-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
